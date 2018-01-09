@@ -1,3 +1,4 @@
+/* sets background image full screen*/
 body#background {
 	background: url("noksukow.jpeg") no-repeat 50% 50% fixed;
 	background-size: cover;
@@ -6,17 +7,19 @@ body#background {
 	-webkit-background-size: cover;
 }
 
-/*moves the content of the page over to the right and centers it vertically*/
+/*moves the content of the page over to the right and changes the color to white*/
 #content {
 	color: white;
 	position: fixed;
 	left: 75%;
 }
 
+/* creates a red shadow beneath the main header text*/
 h1 {
 	text-shadow: 2px 2px red;
 }
 
+/*highlights the citation beneath the header*/
 #citation {
 	font-size: small;
 }
