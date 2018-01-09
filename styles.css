@@ -16,3 +16,7 @@ body#background {
 h1 {
 	text-shadow: 2px 2px red;
 }
+
+#citation {
+	font-size: small;
+}
